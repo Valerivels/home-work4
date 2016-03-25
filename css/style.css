@@ -1,0 +1,216 @@
+body{
+background-color: #0c739f;
+background-image: url("../image/bg.png");
+background-repeat: repeat-x;
+height: 400px;
+
+}
+.white_main {
+  background-color: #ffffff;
+  box-shadow: 0 -1px 7px rgb(3, 29,40);
+  margin: 0 auto;;
+  max-width: 1000px;
+  overflow: hidden;;
+}
+.top_panel {
+min-height: 175px;
+}
+.logo {
+  float: left;
+  margin: 12px 0 -5px 27px;
+}
+.contact {
+  color: #128aa7;
+  float: right;
+  font-size: 12px;
+  height: 67px;
+  line-height: 19px;
+  margin: 7px 23px 0 0;
+  width: 135px;
+}
+.cantries {
+  clear: right;
+  font-size: 8px;
+  list-style: outside none none;
+  padding: 39px 19px 0 0;
+}
+.cantries li {
+  float: right;
+  margin-right: 15px;
+}
+.cantries li a {
+  background-position: center top;
+  background-repeat: no-repeat;
+  color: #128aa7;
+  display: block;
+  height: 10px;
+  padding-top: 44px;
+  text-align: center;
+  width: 42px;
+}
+.cantries .india a {
+  background-image: url("../image/india.png");
+}
+.cantries .nepal a {
+  background-image: url("../image/nepal.png");
+}
+.cantries .tibet a {
+  background-image: url("../image/tibet.png");
+}
+.cantries .butan a {
+  background-image: url("../image/butan.png");
+}
+.cantries .shrilanka a {
+  background-image: url("../image/shrilanka.png");
+}
+.cantries .maldives a {
+  background-image: url("../image/maldives.png");
+}
+.foto {
+  clear:both;
+  height: 237px;
+  width: 100%;
+
+}
+.navigation {
+    background:#363636;
+    box-shadow: 0 0 4px 1px rgba(79, 79, 80, 1);
+    display: flex;
+    justify-content: space-around;
+    list-style: outside none none;
+    padding: 0 30px;
+    position: relative;
+    z-index: 1;
+  }
+  .navigation a {
+    color: white;
+    display: block;
+    font-size: 15px;
+    padding: 6px;
+    text-decoration: none;
+}
+.navigation a:hover {
+}
+@media all and (max-width: 800px) {
+.navigation {
+
+    justify-content: space-around;
+}
+}
+@media all and (max-width: 600px) {
+.navigation {
+
+    flex-flow: column wrap;
+    padding: 0;
+}
+.navigation a {
+    line-height: 22px;
+    padding: 4px;
+    text-align: center;
+}
+.navigation li:last-of-type a {
+    border-bottom: medium none;
+}
+}
+.submenu_puteshestvie {
+    background-color: #303030;
+    box-shadow: 0 4px 8px 1px rgba(64, 64, 64, 1);
+    display: none;
+    min-width: 150px;
+    opacity: 0.99;
+    position: absolute;
+    width: 13%;
+}
+.submenu_uslugi {
+    background-color: #303030;
+    box-shadow: 0 4px 8px 1px rgba(64, 64, 64, 1);
+    display: none;
+    min-width: 100px;
+    position: absolute;
+    width: 8%;
+}
+.submenu_partneram {
+    background-color: #303030;
+    box-shadow: 0 4px 8px 1px rgba(64, 64, 64, 1);
+    display: none;
+    min-width: 130px;
+    position: absolute;
+    width: 11%;
+}
+.navigation li:hover .submenu_puteshestvie, .navigation li:hover .submenu_uslugi, .navigation li:hover .submenu_partneram {
+    display: block;
+    z-index: 1;
+}
+
+h1 {
+    font-family: "Tahoma-Regular",sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+}
+.fon1 {
+    background: #edeef0 none repeat scroll 0 0;
+    border-right: 1px solid #c7cacf;
+    float: left;
+    position: relative;
+    right: 58%;
+    width: 100%;
+}
+.fon2 {
+    background: #ffffff none repeat scroll 0 0;
+    border-right: 1px solid #c7cacf;
+    float: left;
+    position: relative;
+    right: 21%;
+    width: 100%;
+}
+.fon3 {
+    background: #edeef0 none repeat scroll 0 0;
+    color: #424c43;
+    float: left;
+    font-family: "Tahoma-Regular",sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+    width: 100%;
+}
+.leftColumn {
+    float: left;
+    left: 79%;
+    min-height: 500px;
+    overflow: hidden;
+    padding: 0 15px;
+    position: relative;
+    width: 18%;
+}
+.centerColumn {
+    float: left;
+    left: 79%;
+    min-height: 500px;
+    overflow: hidden;
+    padding: 0 15px;
+    position: relative;
+    width: 55%;
+}
+.rightColumn {
+    float: left;
+    left: 79%;
+    min-height: 500px;
+    overflow: hidden;
+    padding: 0 15px;
+    position: relative;
+    width: 18%;
+}
+.copyright {
+    background-color: #0c739f;
+    clear: both;
+    color: white;
+    font-size: 12px;
+    height: 35px;
+    margin: 3px auto 0;
+    padding-top: 10px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+}

@@ -1,0 +1,28 @@
+@import "Tahoma-Regular.css";
+body {
+    color: #ffffff;
+    font-family: "Tahoma-Regular",sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6, ul, li, em, strong, pre, code {
+    font-size: 100%;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1em;
+    margin: 0;
+    padding: 0;
+}
+table {
+    font-size: inherit;
+}
+ul {
+    list-style: outside none none;
+}
+img {
+    border: 0 none;
+}
+p {
+    margin: 1em 0;
+}
